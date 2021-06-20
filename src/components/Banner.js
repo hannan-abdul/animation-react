@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect, useRef } from 'react';
 import Lottie from 'lottie-web';
-import Round from '../json/rotating-triangles.json'
+import Round from '../json/pyramid.json'
 
 const Banner = () => {
     const container = useRef(null)
@@ -17,7 +17,9 @@ const Banner = () => {
     }, [])
 
     return (
-        <div style={{width: '50%'}} className="container" ref={container}></div>
+        <div className="container-fluid banner-fix">
+            <div style={{width: '70%'}} className="container" ref={container}></div>
+        </div>
     );
 };
 

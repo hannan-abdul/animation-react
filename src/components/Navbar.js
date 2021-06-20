@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className="navbar-section">
+        <div className="navbar-section navbar-fix">
             <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
               <a class="navbar-brand" href="#">LOGO</a>

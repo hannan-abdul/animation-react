@@ -8,7 +8,7 @@ h1{
   position: relative;
 }
 .para-fix{
-  padding: 0 168px 40px;
+  padding: 70px 168px;
 }
 .btn-fix{
   position: absolute;
@@ -21,7 +21,16 @@ h1{
 .container-absolute{
   position: absolute;
   left: 5%;
-  top: 250%;
+  top: 260%;
+}
+.banner-fix{
+  background-color: black;
+}
+.navbar-fix{
+  background-color: black;
+}
+.navbar-fix a{
+  color: white !important;
 }
 
 .App-logo {
