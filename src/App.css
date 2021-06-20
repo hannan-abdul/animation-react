@@ -1,6 +1,28 @@
 .App {
   text-align: center;
 }
+h1{
+  font-weight: 700;
+}
+.position-rel{
+  position: relative;
+}
+.para-fix{
+  padding: 0 168px 40px;
+}
+.btn-fix{
+  position: absolute;
+  bottom: 45%;
+  left: 85%;
+  transform: translate(45%, 85%);
+  padding: 20px;
+  box-shadow: 1px 1px 4px gray;
+}
+.container-absolute{
+  position: absolute;
+  left: 5%;
+  top: 250%;
+}
 
 .App-logo {
   height: 40vmin;
